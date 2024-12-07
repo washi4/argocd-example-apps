@@ -33,7 +33,7 @@ spec:
                 fieldPath: status.podIP
           - name: NODE_NAME
             value: 1.10.3
-          image: registry.cn-shanghai.aliyuncs.com/waynedemo/echo-server:v1
+          image: registry.cn-shanghai.aliyuncs.com/waynedemo/echo-server:v2
           imagePullPolicy: IfNotPresent
           resources:
             requests:
